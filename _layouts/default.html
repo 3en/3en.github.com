@@ -65,7 +65,7 @@
                 return Math.abs(ageDate.getUTCFullYear() - 1970);
               }
 
-              var benAge = _calculateAge(Date("August 5, 1988"));
+              var benAge = _calculateAge(new Date("August 5, 1988"));
 
               $('#custom-age').html(benAge.toString());
 
