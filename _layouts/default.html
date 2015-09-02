@@ -55,8 +55,21 @@
           
             <div id="header">
               <div class="logo"><img class="logo-image" src="{{ site.baseurl}}/images/logo_round.jpg" /></div>
-              <h1><b>Ben Reyes</b> is a 25 year old guy from London, England</h1>
+              <h1><b>Ben Reyes</b> is a <span id="custom-age">*</span> year old guy from London, England living in San Francisco, California</h1>
             </div>
+
+            <script>
+              function _calculateAge(birthday) { // birthday is a date
+                var ageDifMs = Date.now() - birthday.getTime();
+                var ageDate = new Date(ageDifMs); // miliseconds from epoch
+                return Math.abs(ageDate.getUTCFullYear() - 1970);
+              }
+
+              var benAge = _calculateAge(Date("August 5, 1988"));
+
+              $('#custom-age').html(benAge.toString());
+
+            </script>
 
             <div id="subheader">
 
