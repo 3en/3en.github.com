@@ -1,9 +1,6 @@
 name: Ben Reyes
-markdown: redcarpet
-highlighter: true
+markdown: kramdown
+description: > 
+  Ben's personal website
 baseurl:
-sass:
-  style: expanded
-  deploy_style: compressed
-  compile_in_place: true
-gems: [jekyll-sass]
+url: "http://benreyes.com"
