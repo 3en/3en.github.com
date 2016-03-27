@@ -207,6 +207,10 @@ div.section-header {
  * --------------------------
 */
 
+#main {
+  padding-bottom: 100px;
+}
+
 #top {
   max-width: 900px;
   padding: 0px 0px;
@@ -483,6 +487,7 @@ div#social-links {
   margin: 0px auto;
   max-width: 460px;
   min-width: 390px;
+
 
   .header {
     text-align: center;
