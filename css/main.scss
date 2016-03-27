@@ -388,11 +388,11 @@ height: 73px;
 div#content { 
   margin: 0px auto;
   max-width: 2000px;
-  min-width: 450px;
+  min-width: 220px;
   padding-top: 15em;
 
   div.l-box> div {
-    min-width: 400px;
+    min-width: 230px;
   }
 
   .section {
@@ -549,6 +549,7 @@ a img {
     .pure-menu-link span {
         position: relative;
         display: block;
+        margin-top: 8px;
     }
 
     .pure-menu-link span,
@@ -596,8 +597,6 @@ a img {
                 transform: rotate(-45deg) translate(.45em, -.35em);
     }
 
-
-
     #layout.active #menu {
 
       .logo {
@@ -611,7 +610,7 @@ a img {
         li {
           position: relative;
           a {
-            padding: 0.5em 0px;
+            padding: 0.7em 0px;
             display: block;
             width: 100%;
             height: 100%;
@@ -625,16 +624,8 @@ a img {
       }    
     }
 
-
-
-/* active */
-// .pure-menu-link {
-//   position: fixed;
-//   display: block;
-// }
-
 #top {
-  min-width: 450px;
+  min-width: 230px;
   max-width: 650px;
 }
 
@@ -648,7 +639,7 @@ a img {
   font-size: 10px;
   z-index: 10;
   width: 2em;
-  height: auto;
+  height: 2em;
   padding: 2.1em 1.6em;
 }
 
@@ -661,15 +652,12 @@ a img {
   background-color: black;
   color: white;
   height: 100%;
+  font-size: 1.1em;
 
   #menu ul {
     list-style: none;
   }
 }
-
-
-
-
 
 #pure-menu-link {
 
@@ -689,8 +677,6 @@ a img {
   color: #fff;
 }
 
-
-
 /* --------------------------
  * Responsive Styles
  * --------------------------
@@ -706,6 +692,7 @@ a img {
 
         #layout #menu {
           left: 0px;
+          font-size: 1.2em;
         }
 
         #layout .pure-menu-link {
@@ -726,18 +713,7 @@ a img {
           left: 200px;
         }
 
-
 }
-
-/*@media (max-width: 767px) {
-
-  #top {
-    min-width: 300px;
-  }
-
-
-}*/
-
 
 .clearfix:after, .container:after {
   content: "\0020";

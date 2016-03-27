@@ -1,6 +1,6 @@
 name: Ben Reyes
 markdown: redcarpet
-pygments: true
+highlighter: true
 baseurl:
 sass:
   style: expanded
