@@ -3,4 +3,5 @@ markdown: kramdown
 description: > 
   Ben's personal website
 baseurl:
-url: "http://benreyes.com"
+url: https://benreyes.com
+enforce_ssl: benreyes.com
